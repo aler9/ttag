@@ -1,0 +1,147 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Configuration for babel-plugin-ttag · ttag</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;h2&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;ttag-configuration-is-a-simple-javascript-object-config&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#ttag-configuration-is-a-simple-javascript-object-config&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code&gt;ttag&lt;/code&gt; configuration is a simple JavaScript object (&lt;strong&gt;Config&lt;/strong&gt;).&lt;/h2&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Configuration for babel-plugin-ttag · ttag"/><meta property="og:type" content="website"/><meta property="og:url" content="https://ttag.js.org/index.html"/><meta property="og:description" content="&lt;h2&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;ttag-configuration-is-a-simple-javascript-object-config&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#ttag-configuration-is-a-simple-javascript-object-config&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code&gt;ttag&lt;/code&gt; configuration is a simple JavaScript object (&lt;strong&gt;Config&lt;/strong&gt;).&lt;/h2&gt;
+"/><meta property="og:image" content="https://ttag.js.org/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://ttag.js.org/img/docusaurus.png"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"/><link rel="alternate" type="application/atom+xml" href="https://ttag.js.org/blog/atom.xml" title="ttag Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://ttag.js.org/blog/feed.xml" title="ttag Blog RSS Feed"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-125563423-1', 'auto');
+              ga('send', 'pageview');
+            </script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/prism.css"/><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/short-icon.svg" alt="ttag"/><h2 class="headerTitleWithLogo">ttag</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/docs/quickstart.html" target="_self">Docs</a></li><li class=""><a href="/blog/" target="_self">Blog</a></li><li class=""><a href="https://github.com/ttag-org/ttag/" target="_self">Github</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Configuration for babel-plugin-ttag</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="ttag-configuration-is-a-simple-javascript-object-config"></a><a href="#ttag-configuration-is-a-simple-javascript-object-config" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>ttag</code> configuration is a simple JavaScript object (<strong>Config</strong>).</h2>
+<h3><a class="anchor" aria-hidden="true" id="configextractoutput-string"></a><a href="#configextractoutput-string" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Config.extract.output (string)</h3>
+<blockquote>
+<p>Default: <code>'polyglot_result.pot'</code></p>
+</blockquote>
+<p>Specifies a file where to save extracted translations (<code>.pot</code> file). If this setting is present then <code>babel-plugin-ttag</code>
+will extract translations.</p>
+<h3><a class="anchor" aria-hidden="true" id="configextractlocation-string"></a><a href="#configextractlocation-string" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Config.extract.location (string)</h3>
+<blockquote>
+<p>Default: <code>'full'</code></p>
+</blockquote>
+<p>Configure how file references are attached to translation files. File references may help translators to identify where
+a given translatable text is used in the code base.</p>
+<p>One of the following values are valid:</p>
+<ul>
+<li><code>'full'</code> - file location with line number</li>
+<li><code>'file'</code> - only file location without line number</li>
+<li><code>'never'</code> - don't attach any file reference</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="configresolvetranslations-string"></a><a href="#configresolvetranslations-string" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Config.resolve.translations (string)</h3>
+<blockquote>
+<p>Default: <code>null</code>
+Specifies the path to the <code>.po</code> file with translations that will be placed in sources.</p>
+</blockquote>
+<p>Example:</p>
+<pre><code class="hljs css language-json">{ <span class="hljs-attr">"resolve"</span>: { <span class="hljs-attr">"translations"</span>: <span class="hljs-string">"i18n/uk.po"</span> } }
+</code></pre>
+<p>It can be set to <code>'default'</code> to strip <code>ttag</code> tags and resolve the default locale:</p>
+<pre><code class="hljs css language-json">{ <span class="hljs-attr">"resolve"</span>: { <span class="hljs-attr">"translations"</span>: <span class="hljs-string">"default"</span> } }
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="configresolveunresolved-string"></a><a href="#configresolveunresolved-string" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Config.resolve.unresolved (string)</h3>
+<blockquote>
+<p>Default: <code>'skip'</code></p>
+</blockquote>
+<p>Controls how to handle missing translation strings in the <code>.po</code> file.</p>
+<p>One of the following values are valid:</p>
+<ul>
+<li><code>'fail'</code> - will throw an exception with information about string that has no translation.</li>
+<li><code>'warn'</code> - will send warn message to stdout.</li>
+<li><code>'skip'</code> - no reaction</li>
+</ul>
+<p>This setting can be useful if you want to ensure that all translations are present before some release, branch merge,
+etc.</p>
+<p>Example:</p>
+<pre><code class="hljs css language-json">{ <span class="hljs-attr">"resolve"</span>: { <span class="hljs-attr">"translations"</span>: <span class="hljs-string">"uk.po"</span>, <span class="hljs-attr">"unresolved"</span>: <span class="hljs-string">"fail"</span> } }
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="configextractors-functionname-invalidformat-string"></a><a href="#configextractors-functionname-invalidformat-string" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Config.extractors.[FunctionName].invalidFormat (string)</h3>
+<blockquote>
+<p>Default: <code>'fail'</code>
+Available function names: <code>tag-gettext</code>, <code>ngettext</code>, <code>gettext</code>, and <code>tag-ngettext</code></p>
+</blockquote>
+<p>Controls how to handle functions using a translatable text containing an invalid format.</p>
+<p>One of the following values are valid:</p>
+<ul>
+<li><code>fail</code> - will throw exception with information about string that has no translation.</li>
+<li><code>warn</code> - will send warn message to stdout.</li>
+<li><code>skip</code> - no reaction</li>
+</ul>
+<p>Example:</p>
+<pre><code class="hljs css language-json">{<span class="hljs-attr">"extractors"</span>: { <span class="hljs-attr">"tag-gettext"</span>: { <span class="hljs-attr">"invalidFormat"</span>: <span class="hljs-string">"skip"</span> } } }
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="configdedent-boolean"></a><a href="#configdedent-boolean" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Config.dedent (boolean)</h3>
+<blockquote>
+<p>Default: <code>true</code></p>
+</blockquote>
+<p>Configures whether multiline strings should be dedented. For more information, please check the
+<a href="/docs/multiline-strings.html">multiline strings</a> section of the documentation.</p>
+<h3><a class="anchor" aria-hidden="true" id="configdiscover-array-string"></a><a href="#configdiscover-array-string" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Config.discover (Array<String>)</h3>
+<blockquote>
+<p>Default: <code>false</code></p>
+</blockquote>
+<p>By default, ttag will be looking for translations in file if it has an appropriate <code>import</code> or <code>require</code></p>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">import</span> { t } <span class="hljs-keyword">from</span> <span class="hljs-string">'ttag'</span>
+<span class="hljs-comment">// or</span>
+<span class="hljs-keyword">const</span> { t } = <span class="hljs-built_in">require</span>(<span class="hljs-string">'ttag'</span>);
+</code></pre>
+<p>If you are not using none of commonjs or es6 imports you can set this setting to <code>true</code> to discover translation strings without explicit <code>import</code> statement or <code>require</code> call.</p>
+<h3><a class="anchor" aria-hidden="true" id="configdefaultlang-string"></a><a href="#configdefaultlang-string" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Config.defaultLang** (String)**</h3>
+<blockquote>
+<p>Default: <code>'en'</code></p>
+</blockquote>
+<p>Default language ISO code that is used for strings in the source code. (English by default).</p>
+<blockquote>
+<p>See available language codes - <a href="https://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html">https://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html</a></p>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="configaddcomments-boolean-string"></a><a href="#configaddcomments-boolean-string" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Config.addComments [ boolean | String ]</h3>
+<blockquote>
+<p>Default: <code>'false'</code></p>
+</blockquote>
+<p>Set this to <code>true</code> to extract leading comments before a translatable string.</p>
+<pre><code class="hljs css language-js">addComments: <span class="hljs-literal">true</span>
+</code></pre>
+<pre><code class="hljs css language-js"><span class="hljs-comment">// this comment will be extracted to .po file</span>
+t<span class="hljs-string">`translated string`</span>
+</code></pre>
+<p>You can specify a string prefix to identify which comments will be extracted:</p>
+<pre><code class="hljs css language-js">addComments: <span class="hljs-string">'translator:'</span>
+</code></pre>
+<pre><code class="hljs css language-js"><span class="hljs-comment">// this comment will not be extracted</span>
+<span class="hljs-comment">// translator: only this comment will be extracted</span>
+t<span class="hljs-string">`translated string`</span>
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="configsortbymsgid"></a><a href="#configsortbymsgid" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Config.sortByMsgid</h3>
+<blockquote>
+<p>Default: <code>'false'</code></p>
+</blockquote>
+<p>The resulting entries in <code>.po</code> (or <code>.pot</code>) file will be sorted alphabetically by <code>msgid</code>. It can be helpful
+to reduce merge conflicts.</p>
+<h3><a class="anchor" aria-hidden="true" id="confignumberedexpressions-boolean"></a><a href="#confignumberedexpressions-boolean" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Config.numberedExpressions (boolean)</h3>
+<blockquote>
+<p>Default: <code>false</code></p>
+</blockquote>
+<p>Example:</p>
+<pre><code class="hljs css language-js">t<span class="hljs-string">`Hello <span class="hljs-subst">${ name }</span>`</span>
+</code></pre>
+<p>By default this will be extracted to <code>Hello ${ name }</code> in the <code>.po</code> file. Only variable names are allowed to be inside
+expressions. With <code>numberedExpression:true</code> the former example will be extracted to <code>Hello ${ 0 }</code>. This will allow you
+to use any expression inside string literals (function calls, jsx, etc)</p>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#ttag-configuration-is-a-simple-javascript-object-config"><code>ttag</code> configuration is a simple JavaScript object (<strong>Config</strong>).</a><ul class="toc-headings"><li><a href="#configextractoutput-string">Config.extract.output (string)</a></li><li><a href="#configextractlocation-string">Config.extract.location (string)</a></li><li><a href="#configresolvetranslations-string">Config.resolve.translations (string)</a></li><li><a href="#configresolveunresolved-string">Config.resolve.unresolved (string)</a></li><li><a href="#configextractors-functionname-invalidformat-string">Config.extractors.[FunctionName].invalidFormat (string)</a></li><li><a href="#configdedent-boolean">Config.dedent (boolean)</a></li><li><a href="#configdiscover-array-string">Config.discover (Array&lt;String&gt;)</a></li><li><a href="#configdefaultlang-string">Config.defaultLang** (String)**</a></li><li><a href="#configaddcomments-boolean-string">Config.addComments [ boolean | String ]</a></li><li><a href="#configsortbymsgid">Config.sortByMsgid</a></li><li><a href="#confignumberedexpressions-boolean">Config.numberedExpressions (boolean)</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/short-icon.svg" alt="ttag" width="66" height="58"/></a><div><h5>Docs</h5><a href="/docs/en/quickstart.html">Quick Start</a><a href="/docs/en/library-api.html">ttag API</a><a href="/docs/en/plugin-api.html">babel-plugin-ttag API</a></div><div><h5>Community</h5><a href="/en/users.html">User Showcase</a><a href="https://stackoverflow.com/questions/tagged/ttag/" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div><div><h5>More</h5><a href="/blog">Blog</a><a href="https://github.com/ttag-org/ttag">GitHub</a><a class="github-button" href="https://github.com/ttag-org/ttag" data-icon="octicon-star" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a></div></section><section class="copyright">Copyright © 2020 ttag</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '42e5d47bee16e5851b457e187224f831',
+                indexName: 'ttag',
+                inputSelector: '#search_input_react'
+              });
+            </script></body></html>
